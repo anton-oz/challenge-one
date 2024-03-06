@@ -1,16 +1,3 @@
-/* GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title */
-
-
 /* Affects entire page */
 * {
     box-sizing: border-box;
@@ -32,7 +19,6 @@ h1 {
     font-size: 48px;
 }
 
-/* Heri'seo'n makes seo grey */
 .seo {
     color: #d9dcd6;
 }
@@ -54,25 +40,18 @@ nav ul li {
     margin-left: 25px;
 }
 
-/* Site center main photo, change so image is represented with html */
+/* Site center main background image */
 
 .hero {
-    height: auto;
-    width: 100%;
-    margin-bottom: 25px;
-}
-
-
-/* .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-} */
+}
 
-/* Affects all */
+/* Affects all content on page */
 
 body {
     background-color: #d9dcd6;
@@ -88,15 +67,15 @@ p {
 }
 
 
-/* Affects main section container, could be consolidated */
+/* Main section container */
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Search Engine Optimiation Section */
+/* Search Engine Optimiation Article */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -121,7 +100,7 @@ p {
     font-size: 36px;
 }
 
-/* Online Reputation Management Section */
+/* Online Reputation Management Article */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -146,7 +125,7 @@ p {
     font-size: 36px;
 }
 
-/* Social Media Marketing Section */
+/* Social Media Marketing Article */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -169,7 +148,7 @@ p {
 
 /* Aside Section */
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -180,7 +159,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Benefit Lead */
+/* Benefit Lead Article */
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -198,7 +177,7 @@ p {
     max-width: 150px;
 }
 
-/* Benefit Brand */
+/* Benefit Brand Article */
 
 .benefit-brand {
     margin-bottom: 32px;
@@ -217,7 +196,7 @@ p {
     max-width: 150px;
 }
 
-/* Benefit Cost */
+/* Benefit Cost Article */
 
 .benefit-cost {
     margin-bottom: 32px;
