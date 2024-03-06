@@ -2,7 +2,7 @@
 
 ## Description
 
-This websites code needed to be refactored so that future developers have an easier time working on it, and for disabled users using acessibility tools to access the site. In order to achieve this I replaced existing html containers to follow semantic rules. I also added alt text to images displayed on the page, so screen readers can tell disabled users what the context of the image is. I learned that the inspect tool on chrome is invaluable for navigating poorly organized code; I used this tool to write the inital organizing comments in the code.
+This websites code needed to be refactored so that future developers have an easier time working on it, and for disabled users using acessibility tools to access the site. In order to achieve this I replaced existing html containers to follow semantic rules. I also added alt text to images displayed on the page, so screen readers can tell disabled users what the context of the image is. I learned that the inspect tool on chrome is essential for navigating poorly organized code; I used this tool to write the inital organizing comments in the code.
 
 
 ## Installation
